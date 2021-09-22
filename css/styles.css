@@ -1,0 +1,131 @@
+
+*{
+  margin: 0;
+  padding: 0;    
+}
+
+body {
+  background-color: #601d747a;
+  background-image: url(/img/tintarosa.png);
+  background-position:top;
+}
+
+
+body h3{
+  margin: 20px 0 10px 30px;
+  text-align: left;
+  font-family: sans-serif;
+}
+
+.container {
+  margin-left: 30px;
+  margin-right: 400px;
+  font-family: sans-serif;
+}
+
+.dadospessoais {
+  margin: 10px 0 30px 10px;
+}
+
+.datadenascimento {
+  margin: 10px 0 30px 10px  
+}
+
+.idade {
+  margin: 10px 0 30px 10px
+}
+
+.destino {
+  margin: 10px 0 30px 10px
+}
+
+.opcional {
+  margin: 10px 0 30px 10px
+}
+
+
+legend {
+  margin-left: 10px;
+}
+
+
+.botao {
+  margin: 10px 0 30px 10px
+}
+
+button {
+  font-family: arial;
+  color: #14396A;
+  font-size: 14px;
+  text-shadow: 1px 1px 0px #7CACDE;
+  box-shadow: 1px 1px 1px #BEE2F9;
+  padding: 10px 25px;
+  border-radius: 10px;
+  border: 2px solid #3866A3;
+  background: #63B8EE;
+  background: linear-gradient(to top, #63B8EE, #468CCF);
+    }
+
+button:hover {
+  color: #14396A;
+  background: #468CCF;
+  background: linear-gradient(to top, #468CCF, #63B8EE);
+    }
+
+    input {       
+      border-radius: 5px;
+      height: 22px;
+      transition: transform 0.6s ease-in-out;    
+  }
+
+  input:hover {
+      transform: scale(1.1); 
+   }
+
+
+   .dadospessoais input {
+     display: block;
+     margin-bottom: 10px;
+   }
+
+   .idade label {
+     margin-right: 20px;
+   }
+
+   .opcional label {
+    margin-right: 20px;
+   }
+
+
+   footer{
+    margin: 10px;
+    background-color: rgb(103, 167, 209);
+    border-radius: 10px;  
+    text-align: right;  
+    box-shadow: 0 0 1em rgb(36, 35, 29);
+    text-align: center;
+}
+
+footer img{
+  width: 30px;
+  height: 30px;  
+  
+}
+
+section img{
+  height: 180px;
+  width: 180px;
+  margin:20px 0 0 30px;
+}
+
+.brasao {
+  text-align: center;  
+}
+
+fieldset {
+  border-color:rgb(103, 167, 209); 
+  background-color: rgb(103, 167, 209);
+  border:0;
+  border-radius: 10px;
+}
+

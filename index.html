@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title> Juiz de Fora - MG </title>
+</head>
+
+<body>
+    <main>
+        <section class="brasao">
+            <img src="/img/pngwing.com (1).png">
+        </section>
+        <h3>Cadastre-se aqui para ficar por dentro dos eventos da cidade de Juiz de Fora!</h3>
+        <div class="container">
+            <form action="#" method="POST">
+                <fieldset>
+                    <legend>Dados pessoais:</legend>
+                    <div class="dadospessoais">
+                        <label for="email">E-mail:</label>
+                        <input type="email" name="email" id="email" required placeholder="Insira seu e-mail">
+
+                        <label for="nome">Nome:</label>
+                        <input type="nome" name="nome" id="nome" required placeholder="Insira seu nome" maxlength="100">
+
+                        <label for="telefone">Telefone:</label>
+                        <input type="number" name="telefone" id="telefone" required placeholder="Insira telefone">
+                    </div>
+
+
+                    <legend>Insira sua data de nascimento:</legend>
+                    <div class="datadenascimento">
+                        <input type="date" name="data" id="data">
+                    </div>
+
+
+                    <legend> Qual sua faixa etária:</legend>
+                    <div class="idade">
+                        <input type="radio" name="idade" id="menor">
+                        <label for="menor">Tenho menos de 18 anos </label>
+                        <input type="radio" name="idade" id="maior">
+                        <label for="maior">Tenho mais de 18 anos</label>
+                    </div>
+
+                    
+                    <legend>Escolha seu destino:</legend>
+                    <div class="destino">
+                        <select name="destino" id="destino">
+                            <fieldset>
+                                <optgroup label="Pontos Turísticos">
+                                    <option selected disable value="">Selecione</option>
+                                    <option value="">Museu Mariano Procópio</option>
+                                    <option value="">Parque da Lajinha</option>
+                                    <option value="">Mirante do Morro do Cristo</option>
+                                    <option value="">Visitar as capivaras</option>
+                                </optgroup>
+                        </select>
+                    </div>
+
+
+
+
+                    <legend> Você é:</legend>
+                    <div class="opcional">
+                        <input type="checkbox" name="turista" id="turista">
+                        <label for="cobertura">Turista</label>
+                        <input type="checkbox" name="residente" id="residente">
+                        <label for="cobertura">Residente</label>
+                        <input type="checkbox" name="estudante" id="estudante">
+                        <label for="cobertura">Estudante</label>
+                    </div>
+                </fieldset>
+
+                <div class="botao">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Cancelar</button>
+                </div>
+
+        </div>
+        </form>
+        <footer>
+            <a href="https://github.com/DayanaMiranda?tab=repositories" target="_blank"><img
+                    src="./img/37819.png" /></a>
+        </footer>
+    </main>
+</body>
+
+</html>
